@@ -271,8 +271,8 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/sea.jpg) no-repeat center top;
-	margin-top: -50px;
+	background: url(../img/globe.jpg) no-repeat center top;
+	margin-top: 10px;
 	padding-top:120px;
 	text-align:center;
 	background-attachment: relative;
