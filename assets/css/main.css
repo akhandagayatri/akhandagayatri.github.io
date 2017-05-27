@@ -376,7 +376,7 @@ a:after {
     box-sizing: border-box;
     padding-top: 30px;
     padding-bottom: 70px;
-    margin-top: 45px;
+    /*margin-top: 45px;*/
 
 
     background-position: center center;
