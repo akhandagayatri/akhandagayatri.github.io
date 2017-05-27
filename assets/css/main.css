@@ -412,11 +412,14 @@ a:after {
 
 .divider1 {
 	background: linear-gradient(0deg, rgba(0, 121, 162, 0.62), rgba(117, 217, 251, 0.5)), url(../img/bg/divider1.jpg);
-    
+    background-size: cover;
+
 }
 
 .divider2 {
-	background-image: url('../img/bg/divider2.jpg')
+	background-image: url('../img/bg/divider2.jpg');
+        background-image: linear-gradient(0deg, rgba(105, 65, 5, 0.62), rgba(251, 255, 0, 0.38)), url(../img/bg/gayatri3.jpg);
+        background-size: cover;
 }
 
 .divider3 {
