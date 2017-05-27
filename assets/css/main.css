@@ -417,9 +417,8 @@ a:after {
 }
 
 .divider2 {
-	background-image: url('../img/bg/divider2.jpg');
-        background-image: linear-gradient(0deg, rgba(105, 65, 5, 0.62), rgba(251, 255, 0, 0.38)), url(../img/bg/gayatri3.jpg);
-        background-size: cover;
+    background-image: linear-gradient(0deg, rgba(23, 14, 2, 0.62), rgba(243, 185, 24, 0.38)), url(../img/bg/gayatri3.jpg);
+    background-size: cover;
 }
 
 .divider3 {
