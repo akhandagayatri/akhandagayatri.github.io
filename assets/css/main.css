@@ -411,7 +411,8 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-	background-image: url('../img/bg/divider1.jpg')
+	background: linear-gradient(0deg, rgba(0, 121, 162, 0.62), rgba(117, 217, 251, 0.5)), url(../img/bg/divider1.jpg);
+    
 }
 
 .divider2 {
