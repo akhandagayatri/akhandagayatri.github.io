@@ -292,8 +292,35 @@ a:after {
     background-size: cover;
 }
 
+#headerwrap_p {
+    background:url(../img/globe3.jpg) no-repeat center top;
+    padding-top:85px;
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 250px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 #headerwrap h1 {
 	    color: #d87201;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    /* text-shadow: 2px 2px 2px #000; */
+    margin-top: 0px;
+}
+
+#headerwrap_p h1 {
+        color: #d87201;
     padding-bottom: 20px;
     font-size: 35px;
     font-weight: bold;
@@ -312,6 +339,18 @@ a:after {
 	
 	margin-left: 15px;
 	// text-shadow: 1px 1px 1px #000;
+}
+#headerwrap_p p {
+    color:#135c9e;
+    font-family: 'Lobster Two' ;
+    font-style: italic;
+    font-size: 70px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 40px;
+    
+    margin-left: 15px;
+    // text-shadow: 1px 1px 1px #000;
 }
 
 #greywrap {
