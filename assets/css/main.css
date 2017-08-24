@@ -452,11 +452,13 @@ a:after {
 	background: linear-gradient(0deg, rgba(0, 121, 162, 0.62), rgba(117, 217, 251, 0.5)), url(../img/bg/divider1.jpg);
     background-size: cover;
 
+
 }
 
 .divider2 {
-        background-image: linear-gradient(0deg, rgba(37, 14, 0, 0.93), rgba(179, 117, 5, 0.66)), url(../img/bg/gayatri3.jpg);
+        background-image: linear-gradient(0deg, rgba(37, 14, 0, 0.93), rgba(179, 117, 5, 0.66)), url(../img/bg/gayatri2.jpg);
     background-size: cover;
+     background-position: top;
 }
 
 .divider3 {
@@ -695,13 +697,13 @@ a:after {
     font-size: 74px;
     color: #073c6d;
     font-style: italic;
-    padding-top: 0px;
+    padding-top: 13px;
  }   
 
   .divider4 h1{
     color: #073c6d;
     font-weight: bolder;
-    padding-top: 0px;
+    padding-top: 15px;
     padding-bottom: 0px;
  }  
 
