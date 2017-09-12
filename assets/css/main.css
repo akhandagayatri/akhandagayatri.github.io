@@ -153,6 +153,38 @@ hr:before {
     background: #ccc;
 }
 
+#chant:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 2px;
+    background: white;
+}
+
+#deeper:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 2px;
+    background: #ccc;
+}
+
+#thanks:before{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 22%;
+    width: 60%;
+    height: 2px;
+    background: #ccc;
+}
+
+}
+
 a img {
     background: white;
 }
@@ -462,7 +494,7 @@ a:after {
 }
 
 .divider3 {
-	background-image: url('../img/globe3.jpg');
+	background-image: url('../img/globe4.jpg');
 	margin-top: 0px;
 }
 
