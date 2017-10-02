@@ -765,7 +765,7 @@ a:after {
     font-weight: 700;
 }
 
-#download{
+.download{
     background-image:url(../img/cloud.png);
     background-position:5px 5px;
     background-repeat:no-repeat;
