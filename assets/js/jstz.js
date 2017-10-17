@@ -26,7 +26,7 @@ var jstz = (function () {
             HOUR: 3600000,
             MINUTE: 60000,
             SECOND: 1000,
-            BASELINE_YEAR: 2014,
+            BASELINE_YEAR: 2017,
             MAX_SCORE: 864000000, // 10 days
             AMBIGUITIES: {
                 'America/Denver':       ['America/Mazatlan'],
