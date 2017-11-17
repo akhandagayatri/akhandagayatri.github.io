@@ -36,11 +36,12 @@
 
   <script src='assets/js/jstz.js'></script>
   <script src='assets/js/moment.js'></script>
-  <script src='assets/js/moment-data.js'></script>
-  <script src='assets/js/moment-with-locales.js'></script>
-  <script>
-    var tz = jstz.determine();
-    console.log('Your timezone is: ' + tz.name());
+  <script src='assets/js/moment-timezone-with-data.js'></script>
+    <script>
+    var tz = moment.tz.guess();
+    var timedifference = new Date().getTimezoneOffset();
+    console.log('Your timezone is: ' + tz );
+    console.log('Your offset hour is: ' + timedifference);
   </script>
 
   <script>
