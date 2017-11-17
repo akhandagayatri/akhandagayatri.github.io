@@ -67,6 +67,7 @@ var jstz = (function () {
         get_date_offset = function get_date_offset(date) {
             var offset = -date.getTimezoneOffset();
             return (offset !== null ? offset : 0);
+			
         },
 
         /**
@@ -162,7 +163,10 @@ var jstz = (function () {
             }
 
             return false;
+			
         },
+		
+		
 
         /**
          * Probably completely unnecessary function that recursively finds the
@@ -451,6 +455,7 @@ jstz.olson.timezones = {
     '-180,1': 'America/Godthab',
     '-180,0': 'America/Argentina/Buenos_Aires',
     '-180,1,s': 'America/Montevideo',
+    '-120,1,s': 'America/Sao_Paulo',
     '-120,0': 'America/Noronha',
     '-120,1': 'America/Noronha',
     '-60,1': 'Atlantic/Azores',
