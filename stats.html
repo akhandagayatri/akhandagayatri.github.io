@@ -34,6 +34,14 @@
   <script type="text/javascript" src="assets/js/soundmanager2-jsmin.js"></script>
   <script type="text/javascript" src="assets/js/bar-ui.js"></script>
 
+  <script src='assets/js/jstz.js'></script>
+  <script src='assets/js/moment-data.js'></script>
+  <script src='assets/js/moment-with-locales.js'></script>
+  <script>
+    var tz = jstz.determine();
+    console.log('Your timezone is: ' + tz.name());
+  </script>
+
   <script>
     soundManager.setup({
       url: 'assets/swf/',
