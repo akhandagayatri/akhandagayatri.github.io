@@ -26,7 +26,11 @@ var jstz = (function () {
             HOUR: 3600000,
             MINUTE: 60000,
             SECOND: 1000,
+<<<<<<< HEAD
             BASELINE_YEAR: 2014,
+=======
+            BASELINE_YEAR: 2017,
+>>>>>>> origin/master
             MAX_SCORE: 864000000, // 10 days
             AMBIGUITIES: {
                 'America/Denver':       ['America/Mazatlan'],
@@ -67,6 +71,10 @@ var jstz = (function () {
         get_date_offset = function get_date_offset(date) {
             var offset = -date.getTimezoneOffset();
             return (offset !== null ? offset : 0);
+<<<<<<< HEAD
+=======
+			
+>>>>>>> origin/master
         },
 
         /**
@@ -104,6 +112,7 @@ var jstz = (function () {
             if (typeof Intl === "undefined" || typeof Intl.DateTimeFormat === "undefined") {
                 return;
             }
+<<<<<<< HEAD
             format = Intl.DateTimeFormat();
             if (typeof format === "undefined" || typeof format.resolvedOptions === "undefined") {
                 return;
@@ -112,6 +121,21 @@ var jstz = (function () {
             if (timezone && (timezone.indexOf("/") > -1 || timezone === 'UTC')) {
                 return timezone;
             }
+=======
+
+            format = Intl.DateTimeFormat();
+
+            if (typeof format === "undefined" || typeof format.resolvedOptions === "undefined") {
+                return;
+            }
+
+            timezone = format.resolvedOptions().timeZone;
+
+            if (timezone && (timezone.indexOf("/") > -1 || timezone === 'UTC')) {
+                return timezone;
+            }
+
+>>>>>>> origin/master
         },
 
         /**
@@ -157,7 +181,14 @@ var jstz = (function () {
             }
 
             return false;
+<<<<<<< HEAD
         },
+=======
+			
+        },
+		
+		
+>>>>>>> origin/master
 
         /**
          * Probably completely unnecessary function that recursively finds the
@@ -324,7 +355,11 @@ var jstz = (function () {
                 if (scoreboard.hasOwnProperty(tz)) {
                     for (var j = 0; j < ambiguities.length; j++) {
                         if (ambiguities[j] === tz) {
+<<<<<<< HEAD
                         return tz;
+=======
+                            return tz;
+>>>>>>> origin/master
                         }
                     }
                 }
@@ -446,6 +481,10 @@ jstz.olson.timezones = {
     '-180,1': 'America/Godthab',
     '-180,0': 'America/Argentina/Buenos_Aires',
     '-180,1,s': 'America/Montevideo',
+<<<<<<< HEAD
+=======
+    '-120,1,s': 'America/Sao_Paulo',
+>>>>>>> origin/master
     '-120,0': 'America/Noronha',
     '-120,1': 'America/Noronha',
     '-60,1': 'Atlantic/Azores',

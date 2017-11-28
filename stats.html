@@ -34,6 +34,16 @@
   <script type="text/javascript" src="assets/js/soundmanager2-jsmin.js"></script>
   <script type="text/javascript" src="assets/js/bar-ui.js"></script>
 
+  <script src='assets/js/jstz.js'></script>
+  <script src='assets/js/moment.js'></script>
+  <script src='assets/js/moment-timezone-with-data.js'></script>
+    <script>
+    var tz = moment.tz.guess();
+    var timedifference = new Date().getTimezoneOffset();
+    console.log('Your timezone is: ' + tz );
+    console.log('Your offset hour is: ' + timedifference);
+  </script>
+
   <script>
     soundManager.setup({
       url: 'assets/swf/',
@@ -102,7 +112,7 @@
  <div class="row">
   
 <div class="col-lg-12 ">
-  <iframe width="100%"  frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQFEcgEg_ubWlhNjAjZMCIkZ0QxCzXhtAx4GOXzeeWQHFhCG6CpjITFtf9rWt_UMclUX72NBdj3-fFp/pubchart?oid=640949925&amp;format=interactive"></iframe >
+  
 </div> 
 </div><!-- row -->
 </div><!-- greywrap -->
